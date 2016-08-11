@@ -1,6 +1,10 @@
 /*
  * Prints "Hello World" on the OLED along with the return value of millis()
  * every 100ms.
+ *
+ * Needs SSD1306 support from DisplayCore
+ *
+ * * https://github.com/MajenkoLibraries/DisplayCore
  */
 
 #include <DisplayCore.h>
